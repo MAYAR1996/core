@@ -1,6 +1,6 @@
 pipeline {
     agent {
-       label 'android-poc-slave'
+   //    label 'android-poc-slave'
        
     }
     stages {
@@ -9,4 +9,4 @@ pipeline {
                 sh 'dotnet build'
             }
         }
-        
+    }}
