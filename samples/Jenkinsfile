@@ -1,8 +1,6 @@
 pipeline {
-   // agent {
+    agent any
    //    label 'android-poc-slave'
-       
-//    }
     stages {
         stage('Build') {
             steps {
